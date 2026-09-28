@@ -18,8 +18,7 @@
     "express": "^5.2.1",
     "express-validator": "^7.3.2",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.10.2",
-    "sqlite3": "^6.0.1"
+    "mongoose": "^9.10.2"
   },
   "devDependencies": {
     "mongodb-memory-server": "^11.3.0",

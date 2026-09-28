@@ -10,7 +10,6 @@ app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/users', require('./routes/users'));
-app.use('/api/sales', require('./routes/sales'));
 
 app.use((err, req, res, next) => {
   console.error(err);

@@ -7,7 +7,6 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
-import SalesDashboard from './pages/SalesDashboard';
 
 function App() {
   return (
@@ -38,14 +37,6 @@ function App() {
             element={
               <ProtectedRoute>
                 <Dashboard />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/sales"
-            element={
-              <ProtectedRoute>
-                <SalesDashboard />
               </ProtectedRoute>
             }
           />
