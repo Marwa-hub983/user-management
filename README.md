@@ -1,4 +1,4 @@
-# Fetch & Store Petpooja Sales Data (Machine Test)
+# Fetch & Store Petpooja Sales Data
 
 A Node.js utility script designed to fetch sales data from the Petpooja POS API and persist it into a local SQLite database (`sales_data.db`).
 
